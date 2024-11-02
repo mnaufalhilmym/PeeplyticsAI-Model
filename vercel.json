@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "PeeplyticsAI.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/PeeplyticsAI.py" }
+    ]
+  }
